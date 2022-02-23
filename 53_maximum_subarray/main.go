@@ -27,6 +27,7 @@ func main() {
 	}
 }
 
+// https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm
 func solve(nums []int) int {
 	currSub := nums[0]
 	maxSub := nums[0]
